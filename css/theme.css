@@ -30,8 +30,11 @@ p {
 		line-height:1.6;
 	}
 }
+.extra{
+	color: #1ba39c;
+}
 a {
-	color:#1ba39c;
+	color:inherit;
 	-webkit-transition:all .2s ease-in-out;
 	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
