@@ -35,9 +35,11 @@ p {
 }
 .projname{
 	padding-top: 20px;
+	text-transform: none;
 }
 .projdesc{
 	padding-bottom: 10px;
+	text-transform: none;
 }
 a {
 	color:inherit;
