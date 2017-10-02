@@ -149,7 +149,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/background.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/bg-eff1.jpg');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -243,6 +243,15 @@ a:hover,a:focus {
       font-size: 22px; } }
 
 
+.project-title{
+	font-size:40px;
+	font-weight: normal;
+}
+
+.project-description{
+	font-size:30px;
+	font-weight: normal;
+}
 
 .intro .intro-contact
 
