@@ -11,7 +11,14 @@ html {
 	width:100%;
 	height:100%;
 }
-h1,h2,h3,h4,h5,h6 {
+h1{
+	margin:0 0 35px;
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	letter-spacing:1px;
+}
+h2,h3,h4,h5,h6 {
 	margin:0 0 35px;
 	text-transform:uppercase;
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -32,18 +39,12 @@ p {
 }
 
 
+
+
 .extra{
 	color: #1ba39c;
 }
-.projname{
-	padding-top: 20px;
-	text-transform: none;
-	margin-bottom: 10px;
-}
-.projdesc{
-	padding-bottom: 10px;
-	text-transform: none;
-}
+
 a {
 	color:inherit;
 	-webkit-transition:all .2s ease-in-out;
@@ -140,7 +141,6 @@ a:hover,a:focus {
 	-o-background-size:cover;
 }
 
-.bg-white{	background-color: white; }
 
 .st {
 	display:table;
@@ -150,6 +150,19 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/background.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+
+.projectdescription {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#000	;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -438,6 +451,47 @@ body {
 }
 .bgblue {
 	background:#22292c;
+}
+.bg-black {
+	background:#111;
+}
+
+.projname-black{
+	padding-top: 20px;
+	text-transform: none;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+	font-weight:bold;
+	color:white;
+}
+.projdesc-black{
+	padding-bottom: 10px;
+	text-transform: none;
+	font-size:1.2em;
+	font-weight:normal;
+	color:white;
+}
+
+.bg-white{
+	background-color: white; 
+}
+
+.projname{
+	padding-top: 20px;
+	text-transform: none;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+	font-weight:bold;
+}
+.projdesc{
+	padding-bottom: 10px;
+	text-transform: none;
+	font-size:1.2em;
+	font-weight:normal;
+}
+
+.circle-bg{
+	color:#967ADC;
 }
 .inlineblock {
 	display:inline-block;
