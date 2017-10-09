@@ -183,6 +183,20 @@ a:hover,a:focus {
 	-o-background-size:cover;
 }
 
+.dbparallax{
+	/* The image used */
+    background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/db/bg.png');
+	-
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .aac {
 	display:table;
 	width:100%;
