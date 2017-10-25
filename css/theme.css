@@ -161,23 +161,8 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/main/IMG_4702.jpg');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-}
 
-.introparallax{
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/main/IMG_4702.jpg');
-	min-height: 100%;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.16),rgba(0,0,0,0.88)),url('../img/main/IMG_4702.jpg');
 
 	position: relative;
 	opacity: 1.0;
@@ -220,20 +205,6 @@ a:hover,a:focus {
 	-o-background-size:cover;
 }
 
-.st {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/background.jpg');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-}
-
 .projectdescription {
 	display:table;
 	width:100%;
@@ -254,25 +225,30 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/db/bg.png');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/dochange/bg.png');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
 	-o-background-size:cover;
 }
 
-.dbparallax{
-	/* The image used */
-    background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/db/bg.png');
-	-
-    /* Set a specific height */
-    min-height: 500px; 
+.dochangeparallax{
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/dochange/bg.png');
+	min-height: 100%;
+
+	position: relative;
+	opacity: 1;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .aac {
@@ -377,7 +353,7 @@ a:hover,a:focus {
 	}
 	.intro .intro-body .brand-heading {
 		font-size:60px;
-		margin-top:90px;
+		margin-top:20px;
 		margin-bottom:20px;
 		border-top:2px solid #fff;
 		border-bottom:2px solid #fff;
