@@ -128,10 +128,10 @@ a:hover,a:focus {
 	outline:0;
 }
 .navbar-custom .nav li.active a {
-	color:#1ba39c;
+	color:#00BF00;
 }
 .navbar-custom .nav li.active a:hover {
-	color:#1ba39c;
+	color:#00BF00;
 }
 @media(min-width:768px) {
 	.navbar-custom {
