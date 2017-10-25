@@ -117,7 +117,7 @@ a:hover,a:focus {
 }
 .navbar-custom .nav li a:hover {
 	outline:0;
-	color:#1ba39c;
+	color:#00BF00;
 	background-color:transparent;
 }
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
