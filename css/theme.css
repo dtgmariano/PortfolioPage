@@ -162,7 +162,7 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/main/header.JPG');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/header.JPG');
 	
 	min-height: 100%;
 
