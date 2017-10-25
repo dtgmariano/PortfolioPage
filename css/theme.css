@@ -194,39 +194,21 @@ a:hover,a:focus {
 	background-size: cover;
 }
 
-.kooktafelparallax{
+.reach{
 	display:table;
 	width:100%;
 	height:auto;
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/st/background.jpg');
-	min-height: 100%;
-
-	position: relative;
-	opacity: 1.0;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.st {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/reach/background.jpg');
 	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/background.jpg');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
 	-o-background-size:cover;
 }
+
 
 .projectdescription {
 	display:table;
@@ -367,7 +349,7 @@ a:hover,a:focus {
 	font-size:40px;
 }
 .intro .intro-body .intro-text {
-	font-size:18px;
+	font-size:2em;
 }
 @media(min-width:768px) {
 	.intro {
@@ -384,7 +366,30 @@ a:hover,a:focus {
 		padding:10px 0;
 	}
 	.intro .intro-body .intro-text {
-		font-size:20px;
+		font-size:3em;
+			font-weight:300;
+			letter-spacing:3px;
+	}
+}
+
+.contact .brand-heading {
+	font-size:40px;
+}
+.contact .intro-text {
+	font-size:2em;
+}
+@media(min-width:768px) {
+	.contact  .brand-heading {
+		font-size:60px;
+		margin-top:20px;
+		margin-bottom:20px;
+		border-top:2px solid #fff;
+		border-bottom:2px solid #fff;
+		display:inline-block;
+		padding:10px 0;
+	}
+	.contact .intro-text {
+		font-size:3em;
 			font-weight:300;
 			letter-spacing:3px;
 	}
