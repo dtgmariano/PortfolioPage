@@ -162,7 +162,7 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.16),rgba(0,0,0,0.88)),url('../img/main/IMG_4702.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.16),rgba(0,0,0,0.88)),url('../img/main/header.jpg');
 
 	position: relative;
 	opacity: 1.0;
