@@ -161,15 +161,12 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.16),rgba(0,0,0,0.88)),url('../img/main/header.jpg');
-
-	position: relative;
-	opacity: 1.0;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/st/header.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
 }
 
 .kooktafelparallax{
@@ -184,7 +181,7 @@ a:hover,a:focus {
 	min-height: 100%;
 
 	position: relative;
-	opacity: 0.65;
+	opacity: 1.0;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
