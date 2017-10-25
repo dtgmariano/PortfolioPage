@@ -163,10 +163,15 @@ a:hover,a:focus {
 	color:#fff;
 	
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../img/main/header.JPG');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
+	
+	min-height: 100%;
+
+	position: relative;
+	opacity: 1.0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .kooktafelparallax{
