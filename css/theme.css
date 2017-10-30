@@ -167,7 +167,47 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/header.JPG');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/intro.JPG');
+	
+	min-height: 100%;
+
+	position: relative;
+	opacity: 1.0;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.process {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/process.jpg');
+	
+	min-height: 100%;
+
+	position: relative;
+	opacity: 1.0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.projects {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/projects.jpg');
 	
 	min-height: 100%;
 
@@ -268,7 +308,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/aac/bg.png');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/sensors/bg.png');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -282,7 +322,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/icu/bg.png');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/intelcomp/bg.png');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -488,15 +528,15 @@ a:hover,a:focus {
 	transition:all .3s ease-in-out;
 }
 .btn-default {
-	border:1px solid #42dca3;
-	color:#42dca3;
+	border:1px solid white;
+	color: white;
 	background-color:transparent;
 }
 .btn-default:hover,.btn-default:focus {
-	border:1px solid #42dca3;
+	border:1px solid #00BF00;
 	outline:0;
 	color:#000;
-	background-color:#42dca3;
+	background-color:#00BF00;
 }
 ul.banner-social-buttons {
 	margin-top:0;
@@ -936,4 +976,10 @@ section {
     .gal-container .modal-content{
         height:250px;
     }
+}
+
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
 }
