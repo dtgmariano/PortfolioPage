@@ -166,8 +166,10 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/intro.jpg');
+}
+
+.hero{
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/intro.JPG');
 	
 	min-height: 100%;
 
@@ -175,26 +177,6 @@ a:hover,a:focus {
 	opacity: 1.0;
 	background-attachment: fixed;
 	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.process {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/process.JPG');
-	
-	min-height: 100%;
-
-	position: relative;
-	opacity: 1.0;
-	background-attachment: fixed;
-	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -248,10 +230,12 @@ a:hover,a:focus {
 	color:#fff;
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/reach/background.jpg');
 	
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
+	position: relative;
+	opacity: 1;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
