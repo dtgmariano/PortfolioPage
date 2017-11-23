@@ -14,7 +14,9 @@
 <!-- Custom Fonts -->
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">\
+
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -30,18 +32,20 @@
 
   gtag('config', 'UA-105775107-1');
 </script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/typewriter.js"></script>
+<script src="js/sort.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top fade-in" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 			<i class="fa fa-bars"></i>
 			</button>
-			<a class="navbar-brand page-scroll" href="index.html">Daniel Mariano</a>
+			<a class="navbar-brand page-scroll" href="test.html">Daniel Mariano</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -51,6 +55,12 @@
 				</li>
 				<li>
 					<a class="page-scroll" href="#about">About</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#projects">Projects</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#skills">Skills</a>
 				</li>
 				<li>
 					<a class="page-scroll" href="#contact">Contact</a>
@@ -63,11 +73,11 @@
 </nav>
 
 <!-- Intro Header -->
-<header id="header" class="projects intro intro-main">
+<header id="header" class="intro hero intro-main">
 	<div class="intro-body">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-left" style="padding-top: 375px">
+				<div class="col-md-12 col-md-offset-0 text-left" style="padding-top: 425px">
 					<div class="row" >
 						<span class="fa-stack fa-2x">
                     		<a href="https://www.linkedin.com/in/danielmariano/" target="_blank"><i class="fa fa-linkedin fa-stack-1x fa"></i></a>
@@ -85,78 +95,115 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 </header>
+
 
 <!-- About Section -->
 <section id="about" class="bg-black">
 	<div class="container content-section text-center">
 		<div class="row" style="border-color:white">
-			<div class="col-sm-1 col-md-1 text-center">
-			</div>
-			<div class="col-sm-5 col-md-4 text-center">
-				<h1 class="section-heading" style="color:white">
+			<div class="col-sm-1 text-center"></div>
+			<div class="col-sm-4 text-center">
+				<h1 class="section-heading" style="font-size: 4em; color:white;">
 					Who am I?
 				</h1>
 				<p class="text-center" style="color:#FFFFFF">
-					I am a User Experience Designer based in Eindhoven, The Netherlands, currently working within <a target="_blank" href="http://usitue.nl/trainees" style="color:#00BF00">the User System Interaction program at TU/e</a>. In addition to my UX skills, I have a Biomedical and Electrical Engineering background.
+					I am a User Experience designer based in Eindhoven, The Netherlands, currently working within <a target="_blank" href="http://usitue.nl/trainees" style="color:#00BF00">the User System Interaction program at TU/e</a>. In addition to my UX skills, I have a Biomedical and Electrical Engineering background.
 					<br>
 				</p>
 			</div>
-			<div class="col-sm-0 col-md-2 text-center">
-			</div>
-			<div class="col-sm-5 col-md-4 text-center myvision">
-				<h1 class="section-heading" style="color:white">
+			<div class="col-sm-2 text-center"></div>
+			<div class="col-sm-4 text-center">
+				<h1 class="section-heading" style="font-size: 4em; color:white">
 					My vision
 				</h1>
 				<p class="text-center" style="color:#FFFFFF">
-					As a UX designer, I am inspired to explore new ideas that can empower people's life. With a user-centered approach, my purpose is to meet users needs with business goals, to design a successful product.
+					With a user-centered approach, I am inspired to explore new ideas that can empower people's lives. My purpose as a UX professional is to design successful products, satisfying both users' needs and business' expectations.
 					<br>
 				</p>
 			</div>
-			<div class="col-sm-1 col-md-1 text-center">
+			<div class="col-sm-1 text-center"></div>
+		</div>
+		<div class="row" style="padding-top: 2em;">
+			<a target="_blank" href="https://www.dropbox.com/s/aw9k62e74kp7her/mariano_resume_nov17.pdf?dl=0" class="btnghost" style="border-color: white; color:white"><i class="fa fa-file-pdf-o" style="color:white"></i> Download my CV</a>
+		</div>
+	</div>
+</section>
+
+<!-- Projects Section-->
+<!--section id="projects" class="" style="background-color: #FFF">
+	<div class="projects container content-section text-center">
+		<div class="row" style="border-color:#333">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h1 class="section-heading" style="color:#333; font-size: 4em">
+					My projects
+				</h1>
 			</div>
 		</div>
-		<!--div class="row" style="padding-top: 4em; padding-bottom: 0em">
-        	<div class="col-lg-12 text-center">
-                <h1 class="section-heading" style="color:white"><span class="fa-stack fa-2x">
-                    	<i class="fa fa-spinner fa-stack-1x fa"></i></a>
-                	</span>My process</h1>
-            </div>
+		<div class="row" style="border-color:white">
+			<div class="container gal-container col-lg-10 col-lg-offset-1">
+				<div class="col-md-12 col-sm-6 co-xs-12 gal-item filter ux">
+			      <div class="box">
+			        <img class="filter smartdevice" src="work\corbion\img\view.jpg" class="img-responsive">
+			        <img class="filter kooktafel" src="work\corbion\img\view.jpg" class="img-responsive">
+			        <img class="filter dochange" src="work\dochange\img\tb.png" class="img-responsive">
+			        <img class="filter eventix" src="work\eventix\img\tb2.jpg" class="img-responsive">
+			        <img class="filter aac" src="work\corbion\img\view.jpg" class="img-responsive">
+			        <img class="filter intel" src="work\corbion\img\view.jpg" class="img-responsive">
+			      </div>
+			    </div>	
+			</div>
+		</div>
+		<div class="row" align="center" style="padding-bottom: 2em; border-color:#333">
+            <button class="btn btn-default filter-button" style="color:#333" data-filter="smartdevice">Smartdevice for operators</button>
+            <button class="btn btn-default filter-button" style="color:#333" data-filter="kooktafel">De Kooktafel</button>
+            <button class="btn btn-default filter-button" style="color:#333" data-filter="dochange">Wearable Activity Dashboard</button>
+            <button class="btn btn-default filter-button" style="color:#333" data-filter="eventix">Ticketshop Dashboard</button>
+            <button class="btn btn-default filter-button" style="color:#333" data-filter="aac">AAC service for ALS users</button>
         </div>
-		<div class="row col-lg-10 col-lg-offset-1"  style="color:white; padding-left: 10px; padding-right: 10px; padding-bottom: 4em;">   
-            <div class="col-md-3" >
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-puzzle-piece fa-stack-1x fa"></i>
-                </span>
-                <h4 class="service-heading">Planning & Strategy</h4>
-                <p class="text">User-Centered Design, Stakeholder Management, Agile Orientation, Design Sprints</p>
-            </div>  
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-users fa-stack-1x fa"></i>
-                </span>
-                <h4 class="service-heading">Research & Ideation</h4>
-                <p class="text">Benchmarking, Contextual Task Analysis, Interviews, Personas</p>
-            </div> 
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-rocket fa-stack-1x fa"></i>
-                </span>
-                <h4 class="service-heading">Prototype & Testing</h4>
-                <p class="text">Electronics, Arduino, Programming, Axure, Usability Testing</p>
+	</div>
+</section-->
+
+<!-- Skills Section -->
+<section id="skills" class="bg-black">
+	<div class="row" style="padding-top: 4em; padding-bottom: 0em">
+        	<div class="col-lg-12 text-center">
+                <h1 class="brand-heading" style="color:white; font-size:4em">My skills</h1>
             </div>
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-line-chart fa-stack-1x fa"></i>
-                </span>
-                <h4 class="service-heading">Analysis & Reflection</h4>
-                <p class="text">Signal Processing, Data Analytics, Data Visualization, Hypothesis Testing, Statistics</p>
-            </div>  
-        </div-->
-		<div class="row" style="padding-top: 2em;">
-			<a target="_blank" href="https://www.dropbox.com/s/isxzot3cu2rrqk9/mariano_resume_sep17.pdf?dl=0" class="btnghost" style="border-color: white; color:white"><i class="fa fa-file-pdf-o" style="color:white"></i> Download my CV</a>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-bottom: 4em">
+	    <div class="row" style="border-color:white">
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
+					<span class="fa-stack fa-4x">
+	                    <i class="fa fa-puzzle-piece fa-stack-1x fa"></i>
+	                </span>
+	                <h4 class="service-heading" >Planning & Strategy</h4>
+	                <p class="text" >User-Centered Design, User & Business requirement elicitation, Project Management</p>
+				</div>
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
+					 <span class="fa-stack fa-4x">
+	                    <i class="fa fa-users fa-stack-1x fa"></i>
+	                </span>
+	                <h4 class="service-heading">Research & Ideation</h4>
+	                <p class="text">Benchmarking, Contextual Task Analysis, User Interviews, Personas, Brainstorming, Storyboarding</p>
+				</div>
+		<!--/div>
+		 <div class="row" style="border-color:white"-->
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
+					<span class="fa-stack fa-4x">
+	                    <i class="fa fa-rocket fa-stack-1x fa"></i>
+	                </span>
+	                <h4 class="service-heading">Prototype & Testing</h4>
+	                <p class="text">Electronics, Programming, UI Prototyping, Tangible Prototyping, Interaction Design, Usability Testing</p>
+				</div>
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
+					 <span class="fa-stack fa-4x">
+	                    <i class="fa fa-line-chart fa-stack-1x fa"></i>
+	                </span>
+	                <h4 class="service-heading">Analysis & Reflection</h4>
+	                <p class="text">Signal processing, Pattern recognition, Data visualization, Hypothesis testing, Statistics</p>
+				</div>
 		</div>
 	</div>
 </section>
