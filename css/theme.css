@@ -255,14 +255,31 @@ a:hover,a:focus {
 }
 
 
-.projaac{
+.aac{
 	display:table;
 	width:100%;
 	height:auto;
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/aac/img/background.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/aac/img/parallax.jpg');
+	
+	position: relative;
+	opacity: 1;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.eventix{
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.80),rgba(0,0,0,0.99)),url('../work/eventix/img/parallax.jpg');
 	
 	position: relative;
 	opacity: 1;
@@ -317,20 +334,6 @@ a:hover,a:focus {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.aac {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/sensors/bg.png');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
 }
 
 .icu {
@@ -1002,82 +1005,18 @@ section {
     color: white;
 }
 
-	.title-arch {
-		text-align: center;
-		margin: 50px 0;
-		font-size: 22px;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-	}
-.project {
-	width: 100%;
-	height: 500px;
-	background-image: url('../img/myprojects/reach.jpg');
-	background-size: cover;
-	background-position: center;
-	padding: 0 !important;
-	float:left;
+.title-arch {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
-.project-2 {
-	background-image: url('../img/myprojects/dochange.png');
-}
+#logo-holder {position:relative; width:992px; height:125px; /*dimensions of image*/}
+#logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position:absolute; top:0; left:0; opacity:0;}
 
-.project-3 {
-	background-image: url('../img/myprojects/eventix.png');
-}
-
-.project-4 {
-	background-image: url('../img/myprojects/aac.jpg');
-}
-
-.project-hover {
-	width: 100%;
-	height: 100%;
-	color: #fff;
-	opacity: 0;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	background-color: rgba(186, 232, 2, 0.7);
-	padding: 40% 30px !important;
-}
-
-.project-hover hr {
-	height: 30px;
-	width: 0;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	background-color: rgba(255, 255, 255, 1);
-	border: 0;
-}
-
-.project-hover a {
-	color: rgba(255, 255, 255, 1);
-	padding: 2px 22px;
-	line-height: 40px;
-	border: 2px solid rgba(255, 255, 255, 1);
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.project-hover a:hover {
-	border-color: rgba(51, 51, 51, 1);
-	color: rgba(51, 51, 51, 1);
-	background-color: #FFF;
-}
-
-.project:hover .project-hover {
-	opacity: 1;
-}
-
-.project:hover .project-hover hr {
-	width: 100%;
-	height: 5px;
-}
-
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
