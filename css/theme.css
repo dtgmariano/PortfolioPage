@@ -831,7 +831,7 @@ section {
 .gal-item a:after{
 	
 	opacity: 0;
-	background-color: rgba(0, 0, 0, 0.85);
+	background-color: rgba(0, 0, 0, 0.75);
 	position: absolute;
 	right: 3px;
 	left: 3px;
@@ -867,8 +867,7 @@ section {
 }
 .gal-item5 a:after{
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
-	color: #00BF00;
-	content:"Are you interested in my work?";
+	content:"Multi-patient ICU monitor";
 }
 .gal-item a:hover:after{
 	opacity: 1;
