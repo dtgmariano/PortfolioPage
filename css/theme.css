@@ -867,7 +867,8 @@ section {
 }
 .gal-item5 a:after{
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
-	content:"Multi-patient ICU monitor";
+	content:"Take a look at my skills!";
+	color:#00BF00;
 }
 .gal-item a:hover:after{
 	opacity: 1;
