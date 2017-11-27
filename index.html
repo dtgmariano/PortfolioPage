@@ -16,6 +16,7 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"-->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,6 +36,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/typewriter.js"></script>
 <script src="js/sort.js"></script>
+<script src="js/slider.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -91,7 +93,7 @@
                 		
 					</div>
 					<h1 class="brand-heading">Daniel Mariano</h1><br>
-					<p class="intro-text typewrite" style="color:#00BF00" data-period="1000" data-type='["User Experience Designer", "Jam Session Explorer", "User Experience Designer"]'></p>
+					<p class="intro-text typewrite" style="color:#00BF00" data-period="1000" data-type='["User Experience Designer", "Jam Session Explorer", "User Experience Designer", "Cook Hacker", "User Experience Designer", "Music Lover"]'></p>
 				</div>
 			</div>
 		</div>
@@ -131,6 +133,7 @@
 	</div>
 </section>
 
+
 <!-- Projects Section-->
 <!--section id="projects" class="" style="background-color: #FFF">
 	<div class="projects container content-section text-center">
@@ -141,63 +144,149 @@
 				</h1>
 			</div>
 		</div>
-		<div class="row" style="border-color:white">
+		
+		<div class="text-left row" style="padding-bottom: 0.0em; border-color:white">
 			<div class="container gal-container col-lg-10 col-lg-offset-1">
-				<div class="col-md-12 col-sm-6 co-xs-12 gal-item filter ux">
+				<div class="col-md-8 col-sm-6 co-xs-12 gal-item filter ux">
 			      <div class="box">
-			        <img class="filter smartdevice" src="work\corbion\img\view.jpg" class="img-responsive">
-			        <img class="filter kooktafel" src="work\corbion\img\view.jpg" class="img-responsive">
-			        <img class="filter dochange" src="work\dochange\img\tb.png" class="img-responsive">
+			        <img class="filter kooktafel" src="work\reach\img\tb2.jpg" class="img-responsive">
+			        <img class="filter dochange" src="work\dochange\img\tb.jpg" class="img-responsive">
 			        <img class="filter eventix" src="work\eventix\img\tb2.jpg" class="img-responsive">
-			        <img class="filter aac" src="work\corbion\img\view.jpg" class="img-responsive">
-			        <img class="filter intel" src="work\corbion\img\view.jpg" class="img-responsive">
+			        <img class="filter aac" src="work\aac\img\view.jpg" class="img-responsive">
 			      </div>
-			    </div>	
+			    </div>
+			    <div class="col-md-4 text-left" style="padding-left: 1em;">
+					<h1 class="section-heading" style="font-size: 1.5em; padding-bottom: 0em; color:black;">
+						Project Title
+					</h1>
+					<p class="text-left" style="font-size: 1.1em; padding-top: 0em; color:black">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+					</p>
+					<div class="row">
+						<div class="col-sm-6">
+					      	<h1 class="text-left" style="font-size: 1.1em; padding-bottom: 0em; color:black">
+								Role
+							</h1>
+						</div>
+						<div class="col-sm-6">
+							<h1 class="text-left" style="font-size: 1.1em; color:black">
+								Team
+							</h1>
+					    </div>
+				    </div>
+				    <div class="row">
+					    <div class="col-sm-6">
+					    	<h1 class="text-left" style="font-size: 1.1em; color:black">
+								Client
+							</h1>
+						</div>
+						<div class="col-sm-6">
+							<h1 class="text-left" style="font-size: 1.1em; color:black">
+								Year
+							</h1>
+					    </div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row" align="center" style="padding-bottom: 2em; border-color:#333">
-            <button class="btn btn-default filter-button" style="color:#333" data-filter="smartdevice">Smartdevice for operators</button>
-            <button class="btn btn-default filter-button" style="color:#333" data-filter="kooktafel">De Kooktafel</button>
-            <button class="btn btn-default filter-button" style="color:#333" data-filter="dochange">Wearable Activity Dashboard</button>
-            <button class="btn btn-default filter-button" style="color:#333" data-filter="eventix">Ticketshop Dashboard</button>
-            <button class="btn btn-default filter-button" style="color:#333" data-filter="aac">AAC service for ALS users</button>
+
+		<div class="row" align="center" style="padding-top: 0.5em; padding-bottom: 2em; border-color:#333">
+			<div class="container gal-container col-lg-10 col-lg-offset-1">
+		        <a href="work/reach/index.html" ><button class="btn btn-default filter-button" style="color:#333" data-filter="kooktafel">De Kooktafel</button></a>
+		        <a href="work/dochange/index.html" ><button class="btn btn-default filter-button" style="color:#333" data-filter="dochange">Healthcare Research Dashboard</button></a>
+		        <a href="work/eventix/index.html" ><button class="btn btn-default filter-button" style="color:#333" data-filter="eventix">Ticketshop dashboard</button></a>
+		        <a href="work/aac/index.html" ><button class="btn btn-default filter-button" style="color:#333" data-filter="aac">EMG-based AAC for ALS users</button></a>
+		    </div>
         </div>
 	</div>
 </section-->
 
+<section id="projects" class="" style="background-color: #FFF">
+	<div class="row" style="padding-top: 4em; padding-bottom: 4em; border-color:#333">
+		<div class="col-lg-8 col-lg-offset-2 text-center">
+			<h1 class="section-heading" style="color:#333; font-size: 4em">
+				My projects
+			</h1>
+		</div>
+		<div class="container gal-container">
+	    	<div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item0">
+			    <div class="box">
+			        <a>
+			     	   <img src="work/corbion/img/tb.jpg">
+			       	</a>
+			    </div>
+	    	</div>
+	    	<div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item1">
+			    <div class="box">
+			        <a>
+			     	   <img src="work/reach/img/tb.jpg">
+			       	</a>
+			    </div>
+	    	</div>
+	    	
+	    	<div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item2">
+			    <div class="box">
+			        <a>
+			     	   <img src="work/dochange/img/tb2.jpg">
+			       	</a>
+			    </div>
+	    	</div>
+	    	<div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item3">
+			    <div class="box">
+			        <a>
+			     	   <img src="work/eventix/img/tb.jpg">
+			       	</a>
+			    </div>
+	    	</div>
+	    	<!--div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item4">
+			    <div class="box">
+			        <a>
+			     	   <img src="work/aac/img/tb.jpg">
+			       	</a>
+			    </div>
+	    	</div-->
+	    	<!--div class="col-md-6 col-sm-6 co-xs-12 gal-item gal-item5">
+			    <div class="box">
+			        <a href="work/aac/index.html">
+			     	   <img src="work/icu/img/tb.png">
+			       	</a>
+			    </div>
+	    	</div-->
+  		</div>
+	</div>
+</section>
+
 <!-- Skills Section -->
-<section id="skills" class="bg-white">
+<section id="skills" class="bg-black">
 	<div class="row" style="padding-top: 4em; padding-bottom: 0em">
         	<div class="col-lg-12 text-center">
-                <h1 class="brand-heading" style=" font-size:4em">My skills</h1>
+                <h1 class="brand-heading" style="color:white; font-size:4em">My skills</h1>
             </div>
     </div>
     <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-bottom: 4em">
-	    <div class="row" style="">
-				<div class="col-lg-3 col-lg-offset-0 text-center" style="">
+	    <div class="row" style="border-color:white">
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
 					<span class="fa-stack fa-4x">
 	                    <i class="fa fa-puzzle-piece fa-stack-1x fa"></i>
 	                </span>
 	                <h4 class="service-heading" >Planning & Strategy</h4>
 	                <p class="text" >User-Centered Design, User & Business requirement elicitation, Project Management</p>
 				</div>
-				<div class="col-lg-3 col-lg-offset-0 text-center" style="">
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
 					 <span class="fa-stack fa-4x">
 	                    <i class="fa fa-users fa-stack-1x fa"></i>
 	                </span>
 	                <h4 class="service-heading">Research & Ideation</h4>
 	                <p class="text">Benchmarking, Contextual Task Analysis, User Interviews, Personas, Brainstorming, Storyboarding</p>
 				</div>
-		<!--/div>
-		 <div class="row" style="border-color:white"-->
-				<div class="col-lg-3 col-lg-offset-0 text-center" style="">
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
 					<span class="fa-stack fa-4x">
 	                    <i class="fa fa-rocket fa-stack-1x fa"></i>
 	                </span>
 	                <h4 class="service-heading">Prototype & Testing</h4>
 	                <p class="text">Electronics, Programming, UI Prototyping, Tangible Prototyping, Interaction Design, Usability Testing</p>
 				</div>
-				<div class="col-lg-3 col-lg-offset-0 text-center" style="">
+				<div class="col-lg-3 col-lg-offset-0 text-center" style="color:white">
 					 <span class="fa-stack fa-4x">
 	                    <i class="fa fa-line-chart fa-stack-1x fa"></i>
 	                </span>

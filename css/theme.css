@@ -169,28 +169,9 @@ a:hover,a:focus {
 }
 
 .hero{
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/main/snotes.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,1.0)),url('../img/snotes.jpg');
 	
 	min-width: 100%;
-
-	position: relative;
-	opacity: 1.0;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.projects {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	
-	
-	min-height: 100%;
 
 	position: relative;
 	opacity: 1.0;
@@ -208,7 +189,7 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.4),rgba(0,0,0,1.0)),url('../img/main/wslava.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.4),rgba(0,0,0,1.0)),url('../img/wslava.jpg');
 	
 	min-height: 100%;
 
@@ -220,6 +201,7 @@ a:hover,a:focus {
 	background-size: cover;
 }
 
+
 .reach{
 	display:table;
 	width:100%;
@@ -227,7 +209,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/reach/img/background.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/reach/img/tb.jpg');
 	
 	position: relative;
 	opacity: 1;
@@ -244,25 +226,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/dochange/img/background.png');
-	
-	position: relative;
-	opacity: 1;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-
-.aac{
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/aac/img/parallax.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.80),rgba(0,0,0,0.99)),url('../work/dochange/img/tb2.jpg');
 	
 	position: relative;
 	opacity: 1;
@@ -289,45 +253,15 @@ a:hover,a:focus {
 	background-size: cover;
 }
 
-
-.projectdescription {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#000	;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-}
-
-.db {
+.aac{
 	display:table;
 	width:100%;
 	height:auto;
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/dochange/bg.png');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-}
-
-.dochangeparallax{
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/dochange/bg.png');
-	min-height: 100%;
-
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../work/aac/img/parallax.jpg');
+	
 	position: relative;
 	opacity: 1;
 	background-attachment: fixed;
@@ -336,19 +270,7 @@ a:hover,a:focus {
 	background-size: cover;
 }
 
-.icu {
-	display:table;
-	width:100%;
-	height:auto;
-	padding:100px 0 100px 0;
-	text-align:center;
-	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/intelcomp/bg.png');
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-}
+
 
 .portfolio-box {
   position: relative;
@@ -896,8 +818,7 @@ section {
 	outline: none;
 }
 .gal-item a:after{
-	content:"\e003";
-	font-family: 'Glyphicons Halflings';
+	
 	opacity: 0;
 	background-color: rgba(0, 0, 0, 0.75);
 	position: absolute;
@@ -912,6 +833,30 @@ section {
     -webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
+}
+.gal-item0 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"Smart-device for operators";
+}
+.gal-item1 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"De Kooktafel";
+}
+.gal-item2 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"DoChange Dashboard";
+}
+.gal-item3 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"Eventix Dashboard";
+}
+.gal-item4 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"AAC for ALS users";
+}
+.gal-item5 a:after{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+	content:"Multi-patient ICU monitor";
 }
 .gal-item a:hover:after{
 	opacity: 1;
