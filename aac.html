@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Designing for AAC users | Daniel Mariano</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="apple-touch-fullscreen" content="yes"/><link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Fonts--><link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <!-- MAIN STYLESHEETS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/theme.css" type="text/css" media="all"/>
+  </head>
+  <body>
+    <div class="loading text-center vertical-middle">
+      <div class="row"><img src="assets/images/loader.gif" width="60" alt="Loader logo" class="loader"/>
+      </div>
+    </div>
+    <header class="main-navigation">
+      <div class="container-fluid">
+        <div class="col-md-2"><!--a href="home.html" class="logo"><img src="assets/images/logo/logo-white.png" alt="Logo"/></a-->
+          <div id="navicon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <nav>
+            <ul role="menu">
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li class="dropdown"><a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"> PROJECTS <span class="dropdown-icon">
+                    <svg width="10" height="7">
+                      <g></g>
+                      <line fill="none" stroke="#fdfdfd" x1="-4.54458" y1="-5.33302" x2="5.38279" y2="4.59435"></line>
+                      <line fill="none" stroke="#fdfdfd" x1="4.67324" y1="4.59752" x2="14.81695" y2="-5.54619"></line>
+                    </svg></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="corbion.html">SMART DEVICE FOR OPERATORS</a></li>
+                  <li><a href="reach.html">COOKING-AID SMART-TABLE</a></li>
+                  <li><a href="dochange.html">DASHBOARD FOR RESEARCHERS</a></li>
+                  <li><a href="eventix.html">TICKETSHOP DASHBOARD</a></li>
+                  <li><a href="aac.html">EMG-BASED AAC FOR ALS USERS</a></li>
+                </ul>
+              </li>
+              <li><a href="t_contact.html">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile-navigation vertical-middle text-center">
+          <ul role="menu" class="text-center">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html" class="mobile-dropdown">PROJECTS</a>
+              <div class="content">
+                <a href="corbion.html">SMART DEVICE FOR OPERATORS</a>
+                <a href="reach.html">COOKING-AID SMART-TABLE</a>
+                <a href="dochange">DASHBOARD FOR RESEARCHERS</a>
+                <a href="eventix.html">TICKETSHOP DASHBOARD</a>
+                <a href="aac.html">EMG-BASED AAC FOR ALS USERS</a>
+              </div>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section style="background-image: radial-gradient(circle at 50% 50%,rgba(0,0,0,0.4),rgba(0,0,0,1.0)),url(assets/images/aac/hero.jpg" class="header-introduction-small text-center background-image">
+      <div class="container vertical-middle text-center">
+        <div class="row section-head section-head-white">
+          <h2 style="line-height: 1em;">DESIGNING FOR A AAC USER WITH ALS</h2>
+          <ul class="breadcrumb">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="#!">PROJECTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section-white">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <div class="section-head">
+            <h2 style="line-height: 1.05em; font-size:6em;">DESIGNING FOR A AAC USER WITH ALS</h2>
+            <img src="assets/images/section-decor-black.png" width="40" alt="Divider"/>
+          </div>
+          <div data-os-animation="fadeIn" data-os-animation-delay="0s" class="col-md-4 margin-top os-animation">
+              <div class="icon-block"><i class="icon-basic-flag1"></i>
+                <h4>Client & Place</h4>
+                <p style="font-size: 16px">Private<br>Brazil</p>
+              </div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.1s" class="col-md-4 margin-top small-screen-margin-top os-animation">
+              <div class="icon-block"><i class="icon-basic-calendar"></i>
+                <h4>Date & Duration</h4>
+                <p style="font-size: 16px">2015<br>4 weeks</p>
+              </div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.2s" class="col-md-4 margin-top small-screen-margin-top os-animation">
+              <div class="icon-block"><i class="icon-basic-world"></i>
+                <h4>Teamed up with</h4>
+                <p style="font-size: 16px">Physiotherapist<br>Speech-Language Pathologist<br>Biomedical Engineer</p>
+              </div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.4s" class="col-md-6 margin-top small-screen-margin-top os-animation">
+              <div class="icon-block"><i class="icon-basic-sheet-pencil"></i>
+                <h4>Challenge</h4>
+                <p style="font-size: 16px">Design an alternative controller for a software that supports communication for people with severe motor dysfunction.</p>
+              </div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.3s" class="col-md-6 margin-top small-screen-margin-top os-animation">
+              <div class="icon-block"><i class="icon-basic-gear"></i>
+                <h4>Methods & Tools</h4>
+                <p style="font-size: 16px">Arduino Prototyping, Benchmarking, Contextual Inquiry, Data Analysis, Expert Review, Multidisciplinary Collaboration, .NET Prototyping, Signal Processing, Task Analysis, User Test</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <div class="section-head">
+            <h2 style="line-height: 1.05em; font-size:6em;">BRIEFING</h2>
+            <img src="assets/images/section-decor-black.png" width="40" alt="Divider"/>
+          </div>
+        </div>
+        <div data-os-animation="fadeIn" data-os-animation-delay="1.0s" class="col-md-12 text-block text-center">
+          <h3 class="os-animation">ABOUT THE CLIENT AND THEIR PROBLEM</h3>
+          <p class="os-animation text-left" style="font-size: 1.4em; padding-top: 1.2em;">According to the WHO, over 1 billion people globally experience disability. From those, a significant number have severe motor dysfunction due to a variaty of causes, such as Spinal Cord Injury, Amyotrophic Lateral Sclerosis (ALS), and so forth. In most cases, people have severe speech impairment, drastically reducing their independence. Health organization and scientific research has proved that rehabilitation and assistive devices can enable people with disabilities to became more independent and increase their quality of life. This case presents the design of a communication-aid device for an individual with ALS.</p>
+          <div class="portfolio-single-content">
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.1s" class="col-md-12 margin-top os-animation">
+              <div class="row"><img src="assets/images/aac/theoryofeverything.jpg" alt="Project Image"/></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <div class="section-head">
+            <h2 style="line-height: 1.05em; font-size:6em;">EMG-BASED AAC</h2>
+            <img src="assets/images/section-decor-black.png" width="40" alt="Divider"/>
+          </div>
+        </div>
+        <div data-os-animation="fadeIn" data-os-animation-delay="1.0s" class="col-md-12 text-block text-center">
+          <h3 class="os-animation">WHAT WE DID</h3>
+          <p class="os-animation text-left" style="font-size: 1.4em; padding-top: 1.2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborume.</p>
+          <div class="portfolio-single-content">
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.2s" class="col-md-12 margin-top os-animation">
+              <div class="row"><img src="assets/images/aac/hardware.jpg" alt="Project Image"/></div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.3s" class="col-md-12 margin-top os-animation">
+              <div class="row"><img src="assets/images/aac/schematic.jpg" alt="Project Image"/></div>
+            </div>
+            <div data-os-animation="fadeIn" data-os-animation-delay="0.4s" class="col-md-12 margin-top os-animation">
+              <div class="row"><img src="assets/images/aac/app.jpg" alt="Project Image"/></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <div class="section-head">
+            <h2 style="line-height: 1.05em; font-size:6em;">DESIGN OUTCOMES</h2>
+            <img src="assets/images/section-decor-black.png" width="40" alt="Divider"/>
+          </div>
+        </div>
+        <div data-os-animation="fadeIn" data-os-animation-delay="1.0s" class="col-md-12 text-block text-center">
+          <h3 class="os-animation">USER TEST OUTCOMES AND DESIGN RECEOMENDATIONS</h3>
+          <p class="os-animation text-left" style="font-size: 1.4em; padding-top: 1.2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborume.</p>
+          <iframe style="padding-top: 1em; padding-bottom: 2em;" class="col-sm-12" src="https://player.vimeo.com/video/244571225" width="600" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!--footer>
+      <div class="container">
+        <div data-os-animation="fadeInUp" data-os-animation-delay="0s" class="col-md-12 text-center os-animation">
+          <div class="section-head"> 
+            <h4>NEWSLETTER</h4>
+            <p>Subscribe to our newsletter to receive news, updates	and the latest projects we are working on.</p>
+          </div>
+        </div>
+        <div data-os-animation="fadeInUp" data-os-animation-delay="0s" class="col-md-12 margin-top margin-bottom os-animation">
+          <form class="newsletter-form text-center">
+            <input placeholder="YOUR EMAIL ADDRESS..." class="form-control"/>
+            <button type="submit">I'M IN</button>
+            <div class="col-md-12 text-center margin-top"><small>You have our word, no spam. Ever.</small></div>
+          </form>
+        </div>
+        <div class="col-md-12 margin-top">
+          <hr/>
+        </div>
+        <div class="col-md-6 text-left small-screen-text-center">
+          <div class="footer-message">
+            <p>2015 © AVOIR - Crafted by Andrewch</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-right small-screen-text-center">
+          <ul class="social-icons">
+            <li><a href="#">DRIBBBLE</a></li>
+            <li><a href="#">BEHANCE</a></li>
+            <li><a href="#">TWITTER</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer-->
+    <script src="assets/js/packages.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  </body>
+</html>
