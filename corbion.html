@@ -28,12 +28,44 @@
     <!-- MAIN STYLESHEETS-->
     <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="assets/css/theme.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/floatbtn.css" type="text/css" media="all"/>
   </head>
   <body>
     <div class="loading text-center vertical-middle">
       <div class="row"><img src="assets/images/loader.gif" width="60" alt="Loader logo" class="loader"/>
       </div>
     </div>
+    <header class="floating-header">
+      <div class="floating-menu-btn">
+        <div class="floating-menu-toggle-wrap">
+          <div class="floating-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+      <div class="main-navigation-wrap">
+        <nav class="main-navigation" data-back-btn-text="Back">
+          <ul class="menu">
+            <li class="delay-0"><a href="index.html">Home</a></li>
+            <li class="menu-item-has-children current-menu-item delay-1">
+              <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>More Projects</a>
+              <ul class="sub-menu">
+                <li class="current-menu-item"></li>
+                <li><a href="corbion.html">Smart-Device for Operators</a></li>
+                <li><a href="reach.html">De Kooktafel</a></li>
+                <li><a href="dochange.html">DoChange Dashboard</a></li>
+                <li><a href="eventix.html">Eventix Dashboard</a></li>
+                <li><a href="aac.html">EMG-based AAC</a></li>
+                <li><a href="intel.html">Multi-patient ICU Monitor</a></li>
+              </ul>
+            </li>
+            
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div>
+    </header>
     <section style="background-image: radial-gradient(circle at 50% 50%,rgba(0,0,0,0.4),rgba(0,0,0,1.0)),url(assets/images/corbion/hero.jpg" class="header-introduction-small text-center background-image">
       <div class="container vertical-middle text-center">
         <div class="row section-head section-head-white">
@@ -295,11 +327,12 @@
         </div>
       </div>
     </section>
-    
+
     <script src="assets/js/packages.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/map.js"></script>
     <script src="assets/js/contact.js"></script>
+    <script src="assets/js/floatbtn.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </body>
 </html>
