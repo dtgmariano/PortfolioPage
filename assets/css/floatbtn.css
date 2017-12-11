@@ -1,6 +1,8 @@
 
 body{
-
+    margin-top:20px;
+    background:#eee;
+    height:1500px;
 }
 .main-navigation .menu li a {
     display: block;
@@ -48,7 +50,7 @@ body{
 }
 .floating-header {
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
     display: block;
     width: 100%;
     padding: 35px
@@ -75,7 +77,7 @@ body{
 
 .floating-header .main-navigation-wrap {
     position: fixed;
-    z-index: 110;
+    z-index: 1100;
     display: table;
     width: 300px;
     height: 100%;
