@@ -2284,7 +2284,7 @@ pre, code, var, kbd, samp, tt, dir, listing, plaintext, xmp, abbr, acronym, q {
 }
 
 .hyper, .section-head h2, .caption-bordered h2, .caption-classic h2 {
-  font-size: 150px;
+  font-size: 6em;
   line-height: 0.8;
 }
 
@@ -2357,7 +2357,7 @@ pre, code, var, kbd, samp, tt, dir, listing, plaintext, xmp, abbr, acronym, q {
     display: block;
   }
   .hyper, .section-head h2, .caption-bordered h2, .caption-classic h2 {
-    font-size: 70px;
+    font-size: 3em;
     line-height: 1;
   }
   .small-screen-center {
