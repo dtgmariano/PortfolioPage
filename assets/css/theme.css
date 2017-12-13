@@ -2143,7 +2143,7 @@ a:active, a:focus {
 /* - Spaced title - */
 .title-space, .section-head span, .caption-bordered span, .caption-classic span, .banner span, .text-block .signature
 span, .team-member span, .blog-post span, .masonry-item-overlay p, .portfolio-single-introduction span {
-  letter-spacing: 7px;
+  letter-spacing: 3px;
   font-size: 13px;
   text-transform: uppercase;
   display: block;
