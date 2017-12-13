@@ -2326,6 +2326,16 @@ pre, code, var, kbd, samp, tt, dir, listing, plaintext, xmp, abbr, acronym, q {
   text-transform: none !important;
 }
 
+.vid{
+  width = 600; 
+  height = 700;
+}
+@media (max-width: ){
+  .vid{
+
+  }
+}
+
 /* Responsive typography */
 @media (max-width: 767px) {
   h1, .headline {
